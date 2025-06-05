@@ -1,4 +1,6 @@
 <?php
+print_r($_POST);
+?>
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $correo = $_POST['correo'];
     $password = $_POST['password'];
